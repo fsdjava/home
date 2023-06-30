@@ -53,7 +53,7 @@ body {
   transform: translateX(-50%);
   width: 2px;
   height: 20px;
-  background: var(--black);
+  background: none;
 }
 
 
@@ -62,7 +62,7 @@ body {
 .level-2-wrapper {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .level-2-wrapper::before {
@@ -72,7 +72,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background: var(--black);
+  background: none;
 }
 
 .level-2-wrapper::after {
@@ -83,7 +83,7 @@ body {
   bottom: -20px;
   width: calc(100% + 20px);
   height: 2px;
-  background: var(--black);
+  background: black;
 }
 
 .level-2-wrapper li {
@@ -98,7 +98,7 @@ body {
   transform: translateX(-50%);
   width: 2px;
   height: 20px;
-  background: var(--black);
+  background: none;
 }
 
 .level-2 {
@@ -136,7 +136,7 @@ body {
 .level-3-wrapper {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 20px;
   width: 90%;
   margin: 0 auto;
@@ -146,8 +146,8 @@ body {
   content: "";
   position: absolute;
   top: -20px;
-  left: calc(25% - 5px);
-  width: calc(50% + 10px);
+  left: calc(14% - 42px );
+  width: calc(80% + 15px);
   height: 2px;
   background: var(--black);
 }
